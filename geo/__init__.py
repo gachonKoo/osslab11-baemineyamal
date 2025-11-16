@@ -1,1 +1,2 @@
-# init file
+__all__ = ['pythagoras', 'circle']
+
