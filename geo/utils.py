@@ -1,10 +1,9 @@
-# utils.py: simple geometry functions
+import math
 
-def area_circle(r):
-    return 3.14159265 * r * r
+def pythagoras(a, b):
+    c = math.sqrt(a**2 + b**2)
+    return c
 
-def area_rectangle(w, h):
-    return w * h
-
-def area_square(a):
-    return a * a
+def circle(r):
+    area = math.pi * r**2
+    return area
